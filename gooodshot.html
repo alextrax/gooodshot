@@ -32,9 +32,19 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
 
         <ul class="nav navbar-nav navbar-right">
-            <li><input type="text" class="span2" value="02/16/12" data-date-format="mm/dd/yy" id="dp2">
+            <li> 
             </li>
-            <li><a href="#">Weather</a>
+            <li> <form accept-charset="UTF-8" action="/images/search" data-remote="true" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"></div>
+    <input id="weather_sunny" name="weather" type="radio" value="sunny">
+    <label for="weather" style="color:#FFF">晴天</label>
+    <input id="weather_cloudy" name="weather" type="radio" value="cloudy">
+    <label for="weather" style="color:#FFF">陰天</label>
+    <input id="weather_rain" name="weather" type="radio" value="rain">
+    <label for="weather" style="color:#FFF">雨天</label>
+    <input class="input" id="img_query" name="img_query" placeholder="關鍵字" type="text">
+    <input id="q_lon" name="q_lon" type="hidden" value="121.77143096923828">
+    <input id="q_lat" name="q_lat" type="hidden" value="24.82428798168206">
+  </form>
             </li>
             <li><a id="place" href="#map-canvas">Place</a>
             </li>
