@@ -1,0 +1,13 @@
+.map-area {
+  width:400px;
+  height:300px;
+  background-color: #aaaaaa;
+  display: block;
+
+}
+
+#map-canvas {
+  width:640px;
+  height:480px;
+  display: none;
+}
